@@ -1,7 +1,6 @@
 import { Socials } from "@/constants"
-import Image from "next/image"
 import { DropdownMenu, DropdownMenuItem, DropdownMenuTrigger, DropdownMenuContent } from "../ui/dropdown-menu"
-import { BrainCircuit, FileText, FolderKanban, Menu, MessageCircle, User } from "lucide-react"
+import { BrainCircuit, FileText, FolderKanban, Menu, MessageCircle, } from "lucide-react"
 
 const MobileNavbar = () => {
     return (

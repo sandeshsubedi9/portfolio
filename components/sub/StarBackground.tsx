@@ -3,11 +3,11 @@
 import { Suspense, useRef, useState } from "react";
 import { useFrame , Canvas} from "@react-three/fiber";
 import { Points,PointMaterial } from "@react-three/drei";
-// @ts-ignore
-import * as random from "maath/random/dist/maath-random.esm"
+// @ts-expect-error: no types available for maath random
+import * as random from "maath/random/dist/maath-random.esm";
 
 const StarBackground = (props : any) => {
-    const ref :any = useRef(null);
+    const ref : any = useRef(null);
     const [sphere ] = useState(() => 
         random.inSphere(new Float32Array(4998),{radius: 1.2})
     )

@@ -244,7 +244,7 @@ const HorizontalScrollProjects = () => {
     return () => {
       ScrollTrigger.getAll().forEach(trigger => trigger.kill());
     };
-  }, [Projects.length]);
+  }, []);
 
   return (
     <div 
@@ -280,7 +280,7 @@ const HorizontalScrollProjects = () => {
           className="flex gap-8"
           style={{ paddingLeft: '60px', paddingRight: '60px' }}
         >
-          {Projects.map((project, index) => (
+          {Projects.map((project) => (
             <div 
               key={project.title}
               className="flex-shrink-0"

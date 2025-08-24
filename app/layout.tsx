@@ -3,7 +3,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import StarsCanvas from "@/components/sub/StarBackground";
 import Navbar from "@/components/main/Navbar";
-import Footer from "@/components/main/Footer";
 import MobileNavbar from "@/components/main/mobile-navbar";
 import { Toaster } from "react-hot-toast";
 

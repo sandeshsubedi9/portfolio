@@ -12,7 +12,7 @@ interface SkillDataProviderProps {
     name: string
 }
 
-const SkillDataProvider = ({ src, width, height, index, name }: SkillDataProviderProps) => {
+const SkillDataProvider = ({ src, width, height, index }: SkillDataProviderProps) => {
   const {ref, inView} = useInView({
     triggerOnce: true,
   });

@@ -9,7 +9,6 @@ import { Textarea } from "@/components/ui/textarea";
 import emailjs from '@emailjs/browser';
 import toast from "react-hot-toast";
 import { useState } from "react";
-import { fa } from "zod/locales";
 
 const schema = z.object({
   user_name: z.string().min(1, "Name is required"),
