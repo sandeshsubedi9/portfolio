@@ -17,7 +17,7 @@ It features smooth animations and interactive effects using **Framer Motion, Thr
 ## 🌐 Visit My Portfolio
 (ctrl + click to open link in new tab)
 
-https://your-live-demo-link.com
+https://sandeshsubedi9.com.np
 
 ---
 
